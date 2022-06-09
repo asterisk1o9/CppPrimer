@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B06BE162710B37200677823 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B06BE152710B37200677823 /* main.cpp */; };
+		7BBF37EC273B4F3C00F34D27 /* tester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BBF37EA273B4F3C00F34D27 /* tester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		7B06BE122710B37200677823 /* CppPrimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPrimer; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B06BE152710B37200677823 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7BBF37EA273B4F3C00F34D27 /* tester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tester.cpp; sourceTree = "<group>"; };
+		7BBF37EB273B4F3C00F34D27 /* tester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tester.hpp; sourceTree = "<group>"; };
+		7BFA094F27DDD442002AF359 /* Chapter6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter6.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				7B06BE152710B37200677823 /* main.cpp */,
+				7BBF37EA273B4F3C00F34D27 /* tester.cpp */,
+				7BBF37EB273B4F3C00F34D27 /* tester.hpp */,
+				7BFA094F27DDD442002AF359 /* Chapter6.h */,
 			);
 			path = CppPrimer;
 			sourceTree = "<group>";
@@ -89,7 +96,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					7B06BE112710B37200677823 = {
 						CreatedOnToolsVersion = 13.0;
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBF37EC273B4F3C00F34D27 /* tester.cpp in Sources */,
 				7B06BE162710B37200677823 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +248,7 @@
 		7B06BE1A2710B37200677823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LV4N957VNT;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -250,6 +259,7 @@
 		7B06BE1B2710B37200677823 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LV4N957VNT;
 				ENABLE_HARDENED_RUNTIME = YES;
